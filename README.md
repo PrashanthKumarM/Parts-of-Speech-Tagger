@@ -51,12 +51,13 @@
 We ran this code for 2 sets of test data. a "tiny" set with 3 test cases and a "large" set with 2000 test cases. The training data used by us consists of 44000 cases with results.
 The training data should be of the format (In case you decide to use a better one):
 
-Word <Part of Speech> Word <Part of Speech> Word ....
+Word < Part of Speech > Word < Part of Speech > Word ....
 
 In sense, each word should be followed by a space and then the appropriate part of speech.
 
 The program should be run as:
-				$ python pos_tagger.py
+
+				 $ python pos_tagger.py
 
 
 Then enter the sentances that need to be tagged. Make sure to have spaces between each word and symbols too. The number of samples for Gibbs sampling can be varied by changing the constant MCMC_SAMPLES.
